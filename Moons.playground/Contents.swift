@@ -31,7 +31,7 @@ func planetDescription(planet: String, numberOfMoons: Int) {
 
 // This line of code gives an error.
 // Uncomment it to see what the error is!
-//planetDescription("Jupiter", 67)
+planetDescription("Jupiter", numberOfMoons: 67)
 
 planetDescription("Jupiter", numberOfMoons: 67)
 
@@ -41,3 +41,9 @@ planetDescription(planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet, numberOfMoons: moons)
+
+planet = "Earth"
+moons = 1
+
+planetDescription(planet, numberOfMoons: moons)
+
